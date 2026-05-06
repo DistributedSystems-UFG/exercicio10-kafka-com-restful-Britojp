@@ -39,3 +39,4 @@ def ultima_media():
     trecho = [database[-1]] if database else []
     return {"temperatura": calcular_media(trecho)}
 
+app.run()
